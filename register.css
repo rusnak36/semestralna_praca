@@ -50,7 +50,55 @@
     text-decoration: none;
 }
 
+.container{
+    display: grid;
+    margin: 0 15% 0;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+}
+.register_box{
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+#register_grid{
+    display: grid;
+    grid-template-columns: min-content auto;
+    padding: 20px;
+    background-color: royalblue;
+}
+#register_grid li{
+    display: block;
+    padding-right: 10px;
+
+}
+#register_grid li p{
+    white-space:nowrap;
+    overflow:hidden;
+}
+p, h1, a{
+    color: white;
+    text-decoration: none;
+}
+a{
+    color: blue;
+}
+a:hover{
+    color: darkblue;
+}
+
+.footer {
+    display: block;
+    text-align: center;
+    background-color: royalblue;
+    color: white;
+}
+
 @media (max-width: 900px) {
+
+    .container {
+        margin: 0 0 0;
+    }
 
     .header ul {
         display: block;

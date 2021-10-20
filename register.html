@@ -14,12 +14,12 @@
 <div class="header">
     <ul>
         <li id="logo_grid">
-            <a href="index.html"><img src="images/logo.png" id="logo"></a>
+            <a href="home.html"><img src="images/logo.png" id="logo" alt="logo"></a>
         </li>
         <li id="navbar">
             <div class="nav">
                 <ul id="nav_grid">
-                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="home.html">HOME</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
                     <li><a href="login.html">LOGIN</a></li>
                     <li><a href="register.html">REGISTER</a></li>
@@ -29,5 +29,32 @@
     </ul>
 </div>
 
+
+<div class="container">
+    <div class="register_box">
+        <h1>Register</h1>
+        <p>Please fill in this form to create an account.</p>
+        <ul id="register_grid">
+            <li><p>Enter email</p></li>
+            <li><input type="text" placeholder="email" name="email" id="email" required></li>
+            <li><p>Enter username</p></li>
+            <li><input type="text" placeholder="username" name="username" required></li>
+            <li><p>Enter password</p></li>
+            <li><input type="password" placeholder="password" name="psw" id="psw" required></li>
+            <li><p>Repeat password</p></li>
+            <li><input type="password" placeholder="repeat password" name="psw-repeat" id="psw-repeat" required></li>
+        </ul>
+
+
+        <div>
+            <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+        </div>
+        <div class="container_signin">
+            <p>Already have an account? <a href="login.html">Sign in</a>.</p>
+        </div>
+    </div>
+</div>
+
+<div class="footer"><small>&copy; Copyright 2021, Milan R.</small></div>
 </body>
 </html>
